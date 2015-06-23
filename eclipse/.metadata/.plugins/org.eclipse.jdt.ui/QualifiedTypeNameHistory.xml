@@ -8,4 +8,5 @@
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="main.cybernetics.items.ItemChromiumNugget"/>
 <fullyQualifiedTypeName name="main.cybernetics.util.OreDictHandler"/>
+<fullyQualifiedTypeName name="cofh.api.energy.IEnergyReceiver"/>
 </qualifiedTypeNameHistroy>
