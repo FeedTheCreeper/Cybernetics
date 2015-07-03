@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "Cybernetics",
+  "name": "Cybernetics",
+  "description": "Cybernetics",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Feed The Creeper Team"],
+  "credits": "audiomodder, thor12022, xcentrik4",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

@@ -15,10 +15,10 @@ public class CyberneticsSimpleArmorTools {
 	
 	public static void initializeItems()
 	{
-		ChromiumHelmet = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 1, 0).setUnlocalizedName("ChromiumHelmet") ;
-		ChromiumChestplate = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 1, 1).setUnlocalizedName("ChromiumChestplate") ;
-		ChromiumLeggings = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 2, 2).setUnlocalizedName("ChromiumLeggings") ;
-		ChromiumBoots = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 2, 3).setUnlocalizedName("ChromiumBoots") ;
+		ChromiumHelmet = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 3, 0).setUnlocalizedName("ChromiumHelmet") ;
+		ChromiumChestplate = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 3, 1).setUnlocalizedName("ChromiumChestplate") ;
+		ChromiumLeggings = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 3, 2).setUnlocalizedName("ChromiumLeggings") ;
+		ChromiumBoots = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 3, 3).setUnlocalizedName("ChromiumBoots") ;
 	}
 	
 	public static void register()

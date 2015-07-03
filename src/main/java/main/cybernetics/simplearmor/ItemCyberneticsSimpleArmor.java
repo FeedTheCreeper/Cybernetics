@@ -12,13 +12,18 @@ public class ItemCyberneticsSimpleArmor extends ItemArmor
 	{
 		super(material, renderIndex, armorPart);
 		setCreativeTab(cybernetics.tabCybernetics);
+		String endname = "_boots";
+		if(armorPart == 0) endname = "_helmet";
+		else if(armorPart == 1) endname = "_chestplate";
+		else if(armorPart == 2) endname = "_leggings";
+		this.setTextureName(ModInformation.ID.toLowerCase() + ":" + getArmorMaterial().name().toLowerCase() + endname);
 	}
 	
 	@Override
     public String getArmorTexture(ItemStack stack, Entity entity, int slot, String RenderingType)
     {
 		int layer = (slot == 2) ? 2 : 1;
-		return "cybernetics:textures:armor/" + getArmorMaterial().name().toLowerCase() + "_" + layer + ".png";
+		return ModInformation.ID.toLowerCase() + ":" + "textures/armor/" + getArmorMaterial().name().toLowerCase() + "_" + layer + ".png";
     }
 	
 	public static void init()
