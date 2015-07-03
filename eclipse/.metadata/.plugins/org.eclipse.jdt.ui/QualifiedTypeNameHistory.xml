@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="main.cybernetics.client.gui.CreativeTabCybernetics"/>
 <fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="net.minecraftforge.common.MinecraftForge"/>
@@ -9,4 +8,18 @@
 <fullyQualifiedTypeName name="main.cybernetics.items.ItemChromiumNugget"/>
 <fullyQualifiedTypeName name="main.cybernetics.util.OreDictHandler"/>
 <fullyQualifiedTypeName name="cofh.api.energy.IEnergyReceiver"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item.ToolMaterial"/>
+<fullyQualifiedTypeName name="main.cybernetics.simplearmor.SimpleArmorStainlessSteel"/>
+<fullyQualifiedTypeName name="main.cybernetics.simplearmor.SimpleArmorMaterials"/>
+<fullyQualifiedTypeName name="main.cybernetics.cybernetics"/>
+<fullyQualifiedTypeName name="main.cybernetics.client.gui.CreativeTabCybernetics"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.util.EnumHelper"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="main.cybernetics.items.ItemRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor.ArmorMaterial"/>
+<fullyQualifiedTypeName name="main.cybernetics.metalarmor.ItemCyberneticsMetalArmor"/>
 </qualifiedTypeNameHistroy>

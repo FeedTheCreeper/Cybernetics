@@ -19,6 +19,7 @@ import main.cybernetics.client.gui.CreativeTabCybernetics;
 import main.cybernetics.client.gui.GuiHandler;
 import main.cybernetics.items.ItemRecipeRegistry;
 import main.cybernetics.items.ItemRegistry;
+import main.cybernetics.metalarmor.ItemCyberneticsMetalArmor;
 import main.cybernetics.proxies.CommonProxy;
 import main.cybernetics.util.EventHandler;
 import main.cybernetics.util.GenerationHandler;
@@ -49,6 +50,8 @@ public class cybernetics {
 
         ItemRegistry.registerItems();
         BlockRegistry.registerBlocks();
+        ItemCyberneticsMetalArmor.init();
+        
 
         OreDictHandler.registerOreDict();
         FMLCommonHandler.instance().bus().register(new EventHandler());
