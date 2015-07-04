@@ -34,9 +34,7 @@ public class GenerationHandler implements IWorldGenerator {
             int firstBlockXCoord = chunkX + rand.nextInt(16);
             int firstBlockZCoord = chunkZ + rand.nextInt(16);
             int quisqueY = rand.nextInt(20);
-
-            if (ConfigHandler.enableGeneration)
-                (new WorldGenMinable(BlockRegistry.BlockChromiteOre, 0, 4, Blocks.stone)).generate(world, rand, firstBlockXCoord, quisqueY, firstBlockZCoord);
+            new WorldGenMinable(BlockRegistry.BlockChromiteOre, 0, 4, Blocks.stone).generate(world, rand, firstBlockXCoord, quisqueY, firstBlockZCoord);
         }
     }
 }

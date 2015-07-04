@@ -37,7 +37,7 @@ public class cybernetics {
     @SidedProxy(clientSide = ModInformation.CLIENTPROXY, serverSide = ModInformation.COMMONPROXY)
     public static CommonProxy proxy;
 
-    public static CreativeTabs tabCybernetics = new CreativeTabCybernetics(ModInformation.ID + ".creativeTab");
+    public static CreativeTabs tabCybernetics = new CreativeTabCybernetics("Cybernetics");
     public static Logger logger = LogManager.getLogger(ModInformation.NAME);
 
     @Mod.Instance

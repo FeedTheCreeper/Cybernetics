@@ -22,7 +22,7 @@ public class CreativeTabCybernetics extends CreativeTabs {
     //The tab icon is what you return here.
     @Override
     public ItemStack getIconItemStack() {
-        return new ItemStack(ItemRegistry.ChromiumNugget);
+        return new ItemStack(ItemRegistry.ChromiumIngot);
     }
 
     @Override
