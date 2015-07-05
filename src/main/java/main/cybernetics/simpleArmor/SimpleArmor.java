@@ -1,11 +1,11 @@
-package main.cybernetics.simplearmor;
+package main.cybernetics.simpleArmor;
 
 import net.minecraft.item.Item;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.GameRegistry.ObjectHolder;
 
-@ObjectHolder("CyberneticsSimpleTools")
-public class CyberneticsSimpleArmorTools {
+@ObjectHolder("CyberneticsSimpleArmor")
+public class SimpleArmor {
 	
 	//Chromium Armor
 	public static Item ChromiumHelmet;
@@ -15,10 +15,10 @@ public class CyberneticsSimpleArmorTools {
 	
 	public static void initializeItems()
 	{
-		ChromiumHelmet = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 3, 0).setUnlocalizedName("ChromiumHelmet") ;
-		ChromiumChestplate = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 3, 1).setUnlocalizedName("ChromiumChestplate") ;
-		ChromiumLeggings = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 3, 2).setUnlocalizedName("ChromiumLeggings") ;
-		ChromiumBoots = new ItemCyberneticsSimpleArmor(CyberneticsSimpleTools.armorChromium, 3, 3).setUnlocalizedName("ChromiumBoots") ;
+		ChromiumHelmet = new SimpleArmorTextures(SimpleArmorMaterials.armorChromium, 3, 0).setUnlocalizedName("ChromiumHelmet") ;
+		ChromiumChestplate = new SimpleArmorTextures(SimpleArmorMaterials.armorChromium, 3, 1).setUnlocalizedName("ChromiumChestplate") ;
+		ChromiumLeggings = new SimpleArmorTextures(SimpleArmorMaterials.armorChromium, 3, 2).setUnlocalizedName("ChromiumLeggings") ;
+		ChromiumBoots = new SimpleArmorTextures(SimpleArmorMaterials.armorChromium, 3, 3).setUnlocalizedName("ChromiumBoots") ;
 	}
 	
 	public static void register()

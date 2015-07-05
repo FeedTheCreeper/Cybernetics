@@ -1,4 +1,4 @@
-package main.cybernetics.simplearmor;
+package main.cybernetics.simpleArmor;
 
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -13,29 +13,28 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraftforge.common.util.EnumHelper;
 
-public class CyberneticsSimpleTools {
+public class SimpleArmorMaterials {
 	
 	public static ArmorMaterial armorChromium;
 	
 	public static void addRecipes()
 	{
 		addArmorForMaterial(ItemRegistry.ChromiumIngot, 
-							CyberneticsSimpleArmorTools.ChromiumHelmet, 
-							CyberneticsSimpleArmorTools.ChromiumChestplate,
-							CyberneticsSimpleArmorTools.ChromiumLeggings,
-							CyberneticsSimpleArmorTools.ChromiumBoots);
+							SimpleArmor.ChromiumHelmet, 
+							SimpleArmor.ChromiumChestplate,
+							SimpleArmor.ChromiumLeggings,
+							SimpleArmor.ChromiumBoots);
 	}
 	
 	public static void addItems()
 	{
-		//Armors
 		armorChromium = EnumHelper.addArmorMaterial("Chromium",
-				ConfigHandler.simpleChromiumArmorDurability,
-				ConfigHandler.simpleChromiumArmorReduction,
-				ConfigHandler.simpleChromiumArmorEnchantability	
+				ConfigHandler.chromiumArmorDurability,
+				ConfigHandler.chromiumArmorReduction,
+				ConfigHandler.chromiumArmorEnchantability	
 				);
-		CyberneticsSimpleArmorTools.initializeItems();
-		CyberneticsSimpleArmorTools.register();
+		SimpleArmor.initializeItems();
+		SimpleArmor.register();
 
 	}
 	

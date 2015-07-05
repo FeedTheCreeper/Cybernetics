@@ -1,4 +1,4 @@
-package main.cybernetics.simplearmor;
+package main.cybernetics.simpleArmor;
 
 import main.cybernetics.ModInformation;
 import main.cybernetics.cybernetics;
@@ -6,9 +6,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 
-public class ItemCyberneticsSimpleArmor extends ItemArmor
+public class SimpleArmorTextures extends ItemArmor
 {
-	public ItemCyberneticsSimpleArmor(ArmorMaterial material, int renderIndex, int armorPart)
+	public SimpleArmorTextures(ArmorMaterial material, int renderIndex, int armorPart)
 	{
 		super(material, renderIndex, armorPart);
 		setCreativeTab(cybernetics.tabCybernetics);

@@ -20,8 +20,9 @@ import main.cybernetics.client.gui.GuiHandler;
 import main.cybernetics.items.ItemRecipeRegistry;
 import main.cybernetics.items.ItemRegistry;
 import main.cybernetics.proxies.CommonProxy;
-import main.cybernetics.simplearmor.CyberneticsSimpleTools;
-import main.cybernetics.simplearmor.ItemCyberneticsSimpleArmor;
+import main.cybernetics.simpleArmor.SimpleArmorMaterials;
+import main.cybernetics.simpleArmor.SimpleArmorTextures;
+import main.cybernetics.simpleTools.SimpleToolsMaterials;
 import main.cybernetics.util.EventHandler;
 import main.cybernetics.util.GenerationHandler;
 import main.cybernetics.util.OreDictHandler;
@@ -51,7 +52,8 @@ public class cybernetics {
 
         ItemRegistry.registerItems();
         BlockRegistry.registerBlocks();
-        CyberneticsSimpleTools.addItems();
+        SimpleArmorMaterials.addItems();
+        SimpleToolsMaterials.addItems();
         
 
         OreDictHandler.registerOreDict();
@@ -67,7 +69,8 @@ public class cybernetics {
 
         ItemRecipeRegistry.registerItemRecipes();
         BlockRecipeRegistry.registerBlockRecipes();
-        CyberneticsSimpleTools.addRecipes();
+        SimpleArmorMaterials.addRecipes();
+        SimpleToolsMaterials.addRecipes();
     }
 
     @Mod.EventHandler
